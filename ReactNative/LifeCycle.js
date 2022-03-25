@@ -33,7 +33,7 @@ export default class LifeCycle extends Component {
     console.log('shouldComponentUpdate');
     if(this.state.title!=nextState.title){
         console.log("commit rander")
-        return true
+        // return true
     }
     return false;
   }
